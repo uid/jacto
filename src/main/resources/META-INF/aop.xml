@@ -1,0 +1,14 @@
+<aspectj>
+  
+  <aspects>
+    <aspect name="edu.mit.csail.uid.jacto.Jacto"/>
+  </aspects>
+  
+  <weaver>
+    <exclude within="java..*"/>
+    <exclude within="javax..*"/>
+    <exclude within="org.junit..*"/>
+    <exclude within="edu.mit.csail.uid.jacto..*"/>
+  </weaver>
+  
+</aspectj>
